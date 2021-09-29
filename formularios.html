@@ -1,0 +1,37 @@
+<html>
+<head><title>Formularios</title>
+</head>
+<body bgcolor="pink">
+<h1>formularios</h1>
+<form action="#" method="post" >
+   <p>Escribe aquí tu petición <input type="text" name="mensaje"></p>
+  <p>Apellidos: <input type="text" name="ape" placeholder="Dos apellidos" size="15" maxlength="15"></p>
+  <p>Localidad: <input type="text" name="localidad" size="18" minlength="2"></p>
+<p>Elegir memoria USB:<input  list="listaUsb"></p>
+<datalist id="listaUsb" >
+  <option value="8"> 
+  <option value="16" >
+  <option value="32" >
+  <option value="64" >
+</datalist></p>
+<p>Contraseña: <input type="password" name="clave" autofocus ></p>
+<input type="radio" name="sexo" id="varon" value="Varón">
+
+<label for="varon">Varón: </label>
+
+<br/> <br/>
+
+<input type="radio" name="sexo" id="mujer" value="Mujer">
+
+<label for="mujer">Mujer: </label>
+
+<br/> <br/>
+   <p><input type="submit" value="Enviar"></p>
+Mayor de 18 años<input type="checkbox" name="C1" value="ON"><br>
+Mayor de 18 años<input type="checkbox" name="C1" value="ON"><br>
+Mayor de 18 años<input type="checkbox" name="C1" value="ON"><br>
+
+
+</form>
+</body>
+</html>
